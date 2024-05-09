@@ -8,3 +8,5 @@ venv/Scripts/pip install -r requirements.txt
 criar pasta APP/SRC
 Organizar padrão MVC dentro da pasta
 criar controllers, models, static, templetes
+
+python -m virtualenv .venv - Para git clones
