@@ -1,9 +1,13 @@
 <html>
     <head>
-        <title>Toiler</title>
+        <title>Toilter</title>
     </head>
     <body>
-       <h1>Toiler</h1>
-       <p>Bem vindo ao Toiler!</p>
+       <h1>Toilter</h1>
+       {% if user%}
+       <p>Bem vindo ao Toilter, {{user}}!</p>
+       {% else %}
+       <p>Bem vindo ao Toilter!</p>
+        {% endif %}
     </body>
 </html>
